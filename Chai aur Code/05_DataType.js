@@ -9,17 +9,29 @@
 
 // Example of Symbol
 
-let id = Symbol ('123')
-let anotherId = Symbol ('123')
+let id = Symbol("123");
+let anotherId = Symbol("123");
 
 // console.log(id === anotherId) // false
 // -----------------------------------------------------
 
-let heroName = ['Mahesh', 'RajaniKant', 'Surya'] // array declarations
-console.log(heroName)
+let heroName = ["Mahesh", "RajaniKant", "Surya"]; // array declarations
+// console.log(heroName)
 let moviesName = {
-    moviesYear: 2013,
-    Hero: 'SanjayDat'
-}
+  moviesYear: 2013,
+  Hero: "SanjayDat",
+};
 
-console.log(moviesName)
+// console.log(moviesName)
+// -------------------------------------------
+
+// const sayHello = function () {
+//     console.log('Welcome to the function')
+// };
+
+// OR
+
+const sayHello = () => {
+  console.log("Declartion of  using array function AKA fat arrow");
+};
+sayHello();
