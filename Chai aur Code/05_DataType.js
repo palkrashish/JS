@@ -35,3 +35,27 @@ const sayHello = () => {
   console.log("Declartion of  using array function AKA fat arrow");
 };
 sayHello();
+
+// ------------------------------------
+
+// Stack (Primitive) - means you get a copy of any variable value
+// Heap (Non-Primitive) - means you get a original value will change
+
+// example
+
+let studentName = 'Ashish'
+anotherStudentName = 'Ajay'
+console.log(studentName) //  Ashish
+console.log(anotherStudentName) // Ajay
+
+let userDetails ={
+    name: 'Ashish Kr Pal',
+    email: 'palkrashish@gmail.com'
+}
+
+let newUserDetails = userDetails;
+
+userDetails.email='ashishkumarpalgzb@gmail.com'
+
+console.log(userDetails.email)
+console.log(newUserDetails.email)
