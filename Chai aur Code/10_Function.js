@@ -8,10 +8,10 @@ function addition(num, num1) {
 
 // console.log(addition(1,2))
 
-function sayHello(user) {
+function sayHello(user = "Guest") {
   if (!user) {
     console.log("Kindly inpur user name");
-    return
+    return;
   }
   return ` ${user} loging successfully. `;
 }
