@@ -28,4 +28,76 @@ User.email = "js@gmail.com";
 User.geet = function () {
   console.log(`Welcome to the page  '${this.name}' `);
 };
-console.log(User.geet())
+// console.log(User.geet());
+// --------------------------------------------------------------------------------
+
+//--------------------------------2nd Part Videos-------------------------
+
+const user = {
+  name: "Ashish",
+  middleName: "Kumar",
+  fullName: {
+    complete: "Ashish kumar pal",
+    address: {
+      location: "Ghz",
+    },
+  },
+};
+
+
+// console.log(user.fullName.complete)
+
+const obj ={1:'A', 2: 'B', 3: 'C'}
+
+const obj1 = {4:'d', 6:'e', 7:'f'}
+
+const allObj = Object.assign({}, obj, obj1)
+// console.log(allObj)
+
+
+// ------------------------------------3rd Part videos--------------------
+
+
+const course = {
+  courseName: 'JS hindi',
+  courseInstructior: 'Hitesh',
+  price: 'free'
+}
+
+// console.log(course.courseInstructior) // Hitesh
+
+// -----------------OR we can destructure of code--------------
+// cosnt {} = objectName
+const {courseInstructior,courseName,price} = course; 
+
+// console.log(courseInstructior) //Hitesh
+
+// console.log(courseName)
+// console.log(price)
+
+// Or we can write
+
+// console.log(courseName,price,courseInstructior)
+
+
+// array Object 
+
+// [
+//   {},
+//   {},
+//   {},
+//   {},
+//   {},
+// ]
+
+// jsone examle "Json will be written in string format "key" and "values" both exmaple "
+
+// [
+//   {
+//     'name': 'ashish',
+//     'roll': 2
+//   },
+//   {
+//     'gender': 'male'
+//   }
+// ]
