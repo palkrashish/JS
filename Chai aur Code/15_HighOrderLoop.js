@@ -20,5 +20,29 @@ const myObject = {
 // for iteratior
 
 for (const key in myObject) {
-  console.log(`${key} and fullName of : ${myObject[key]} `);
+  // console.log(`${key} and fullName of : ${myObject[key]} `);
 }
+
+
+const studentName = ['Ashish', 'Sunny', 'Marray', 'Rahul']
+
+studentName.forEach( (name,index, arr)=>{ // in forEach we have 3 parameter.
+  // console.log(name)
+  // console.log(name,index,arr)
+
+} )
+
+const collegeName =[
+  {
+    collegeNameDelhi: 'DPS',
+    collegStrengh: 100
+  },
+  {
+    collegeNameDelhi: 'PSB',
+    collegStrengh: 123
+  },
+]
+
+collegeName.forEach( (list)=>{
+  console.log(`${list.collegeNameDelhi} and Student strength ${list.collegStrengh} `)
+} )
